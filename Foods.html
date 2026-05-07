@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <title>شاورما بيوت الشام - قائمة الوجبات</title>
+
+    <link rel="stylesheet" href="MyStyles.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="myFunctions.js"></script>
+</head>
+
+<body>
+
+    <nav class="navbar">
+        <a href="MyHome.html">الرئيسية</a>
+        <a href="AboutUs.html">من نحن</a>
+        <a href="Foods.html">الوجبات</a>
+    </nav>
+
+    <div class="page-container">
+
+        <h1 class="center-text">قائمة شاورما بيوت الشام</h1>
+
+        <table class="meals-table">
+            <tr>
+                <th>الرمز</th>
+                <th>الوجبة</th>
+                <th>السعر</th>
+                <th>تفاصيل</th>
+                <th>اختيار</th>
+            </tr>
+
+            <tr>
+                <td>SH-101</td>
+                <td>سندويش شاورما دجاج</td>
+                <td>18000 ل.س</td>
+                <td><input type="checkbox" class="btnDetails" data-target="m1"></td>
+                <td><input type="checkbox" class="mealSelect" value="18000"></td>
+            </tr>
+
+            <tr id="m1" class="meal-details">
+                <td colspan="5">
+                    <div class="meal-details-container">
+                        <div class="meal-image">
+                            <img src="images/1.png" alt="شاورما دجاج">
+                        </div>
+                        <div class="meal-info">
+                            <p><strong>الوصف:</strong> سندويشة شاورما دجاج بتتبيلة بسيطة وطعم خفيف.</p>
+                            <p><strong>المكونات:</strong></p>
+                            <ul>
+                                <li>دجاج متبل</li>
+                                <li>ثوم</li>
+                                <li>مخلل</li>
+                                <li>بطاطا مقلية</li>
+                                <li>خبز عربي</li>
+                            </ul>
+                        </div>
+                    </div>
+                </td>
+            </tr>
+
+            <tr>
+                <td>SH-102</td>
+                <td>سندويش شاورما لحم</td>
+                <td>23000 ل.س</td>
+                <td><input type="checkbox" class="btnDetails" data-target="m2"></td>
+                <td><input type="checkbox" class="mealSelect" value="23000"></td>
+            </tr>
+
+            <tr id="m2" class="meal-details">
+                <td colspan="5">
+                    <div class="meal-details-container">
+                        <div class="meal-image">
+                            <img src="images/2.png" alt="شاورما لحم">
+                        </div>
+                        <div class="meal-info">
+                            <p><strong>الوصف:</strong> شاورما لحم بتتبيلة خفيفة وطعم شرقي بسيط.</p>
+                            <p><strong>المكونات:</strong></p>
+                            <ul>
+                                <li>لحم شاورما</li>
+                                <li>طحينة</li>
+                                <li>بصل</li>
+                                <li>مخلل</li>
+                                <li>خبز عربي</li>
+                            </ul>
+                        </div>
+                    </div>
+                </td>
+            </tr>
+
+            <tr>
+                <td>SH-103</td>
+                <td>صحن شاورما دجاج</td>
+                <td>35000 ل.س</td>
+                <td><input type="checkbox" class="btnDetails" data-target="m3"></td>
+                <td><input type="checkbox" class="mealSelect" value="35000"></td>
+            </tr>
+
+            <tr id="m3" class="meal-details">
+                <td colspan="5">
+                    <div class="meal-details-container">
+                        <div class="meal-image">
+                            <img src="images/3.png" alt="صحن شاورما دجاج">
+                        </div>
+                        <div class="meal-info">
+                            <p><strong>الوصف:</strong> صحن شاورما دجاج مع بطاطا وصوص بسيط.</p>
+                            <p><strong>المكونات:</strong></p>
+                            <ul>
+                                <li>دجاج شاورما</li>
+                                <li>بطاطا</li>
+                                <li>ثوم</li>
+                                <li>سلطة بسيطة</li>
+                            </ul>
+                        </div>
+                    </div>
+                </td>
+            </tr>
+
+            <tr>
+                <td>SH-104</td>
+                <td>صحن شاورما لحم</td>
+                <td>42000 ل.س</td>
+                <td><input type="checkbox" class="btnDetails" data-target="m4"></td>
+                <td><input type="checkbox" class="mealSelect" value="42000"></td>
+            </tr>
+
+            <tr id="m4" class="meal-details">
+                <td colspan="5">
+                    <div class="meal-details-container">
+                        <div class="meal-image">
+                            <img src="images/4.png" alt="صحن شاورما لحم">
+                        </div>
+                        <div class="meal-info">
+                            <p><strong>الوصف:</strong> شاورما لحم مع بطاطا وطحينة.</p>
+                            <p><strong>المكونات:</strong></p>
+                            <ul>
+                                <li>لحم شاورما</li>
+                                <li>بطاطا</li>
+                                <li>طحينة</li>
+                                <li>سلطة خفيفة</li>
+                            </ul>
+                        </div>
+                    </div>
+                </td>
+            </tr>
+
+            <tr>
+                <td>SH-105</td>
+                <td>شاورما دجاج دبل</td>
+                <td>26000 ل.س</td>
+                <td><input type="checkbox" class="btnDetails" data-target="m5"></td>
+                <td><input type="checkbox" class="mealSelect" value="26000"></td>
+            </tr>
+
+            <tr id="m5" class="meal-details">
+                <td colspan="5">
+                    <div class="meal-details-container">
+                        <div class="meal-image">
+                            <img src="images/5.png" alt="شاورما دبل">
+                        </div>
+                        <div class="meal-info">
+                            <p><strong>الوصف:</strong> سندويشة شاورما دجاج بحجم أكبر.</p>
+                            <p><strong>المكونات:</strong></p>
+                            <ul>
+                                <li>دجاج متبل</li>
+                                <li>ثوم</li>
+                                <li>مخلل</li>
+                                <li>بطاطا</li>
+                                <li>خبز عربي كبير</li>
+                            </ul>
+                        </div>
+                    </div>
+                </td>
+            </tr>
+
+        </table>
+
+        <button id="btnContinue">متابعة</button>
+
+        <div id="orderFormContainer"></div>
+
+    </div>
+
+</body>
+</html>
